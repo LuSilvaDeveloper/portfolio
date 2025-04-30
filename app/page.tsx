@@ -87,7 +87,7 @@ export default function Portfolio() {
       {/* Navigation */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-xl font-bold">John Doe</div>
+          <div className="text-xl font-bold">Lucas Silva</div>
           <nav className="hidden md:flex space-x-6">
             {["home", "about", "projects", "contact"].map((section) => (
               <button
@@ -156,15 +156,15 @@ export default function Portfolio() {
           >
             <div className="mb-8 relative mx-auto w-40 h-40 overflow-hidden rounded-full border-4 border-primary/20">
               <Image
-                src="/placeholder.svg?height=160&width=160"
+                src="/picture.jpeg?height=160&width=160"
                 alt="Profile"
                 width={160}
                 height={160}
-                className="object-cover"
+                className="object-cover object-[center_30%]"
                 priority
               />
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">John Doe</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">Lucas Silva</h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
               Full-Stack Developer
             </h2>
