@@ -222,7 +222,7 @@ export default function Portfolio() {
                   user experiences.
                 </p>
                 <p className="text-lg">
-                  When I&#39;m not coding, you can find me exploring hiking
+                  When I am not coding, you can find me exploring hiking
                   trails, experimenting with new recipes, or contributing to
                   open-source projects.
                 </p>
@@ -485,10 +485,10 @@ export default function Portfolio() {
             className="max-w-3xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-              Let&#39;s Connect
+              Lets Connect
             </h2>
             <p className="text-center text-lg mb-8">
-              I&#39;m open to freelance opportunities, collaborations, or just a
+              I am open to freelance opportunities, collaborations, or just a
               friendly chat about tech. Feel free to reach out!
             </p>
 
