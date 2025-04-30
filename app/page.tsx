@@ -222,9 +222,9 @@ export default function Portfolio() {
                   user experiences.
                 </p>
                 <p className="text-lg">
-                  When I'm not coding, you can find me exploring hiking trails,
-                  experimenting with new recipes, or contributing to open-source
-                  projects.
+                  When I&#39;m not coding, you can find me exploring hiking
+                  trails, experimenting with new recipes, or contributing to
+                  open-source projects.
                 </p>
               </div>
               <div>
@@ -233,25 +233,26 @@ export default function Portfolio() {
                   <div className="p-3 bg-muted rounded-lg">
                     <h4 className="font-medium mb-2">Frontend</h4>
                     <p className="text-sm text-muted-foreground">
-                      React, Next.js, TypeScript, Tailwind CSS, Framer Motion
+                      React, Next.js, TypeScript, Tailwind CSS
                     </p>
                   </div>
                   <div className="p-3 bg-muted rounded-lg">
                     <h4 className="font-medium mb-2">Backend</h4>
                     <p className="text-sm text-muted-foreground">
-                      Node.js, Express, Python, Django, PostgreSQL, MongoDB
+                      Node.js, Express, NestJS, PostgreSQL, MongoDB
                     </p>
                   </div>
                   <div className="p-3 bg-muted rounded-lg">
                     <h4 className="font-medium mb-2">Tools & Others</h4>
                     <p className="text-sm text-muted-foreground">
-                      Git, Docker, AWS, Firebase, CI/CD, Jest, Cypress
+                      Git, Docker, AWS, CI/CD, Jest
                     </p>
                   </div>
                   <div className="p-3 bg-muted rounded-lg">
                     <h4 className="font-medium mb-2">Learning</h4>
                     <p className="text-sm text-muted-foreground">
-                      Swift, iOS Development, GraphQL
+                      Exploring AI integration to build smarter, more adaptive
+                      apps
                     </p>
                   </div>
                 </div>
@@ -484,10 +485,10 @@ export default function Portfolio() {
             className="max-w-3xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-              Let's Connect
+              Let&#39;s Connect
             </h2>
             <p className="text-center text-lg mb-8">
-              I'm open to freelance opportunities, collaborations, or just a
+              I&#39;m open to freelance opportunities, collaborations, or just a
               friendly chat about tech. Feel free to reach out!
             </p>
 
