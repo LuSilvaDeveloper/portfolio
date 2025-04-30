@@ -630,12 +630,12 @@ export default function Portfolio() {
             >
               <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground" />
             </a>
-            <a href="mailto:hello@johndoe.com" aria-label="Email">
+            <a href="mailto:lusilva.dev@icloud.com" aria-label="Email">
               <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground" />
             </a>
           </div>
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} Lucas Silva. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground mt-2">
             Built with Next.js, Tailwind CSS, and Framer Motion

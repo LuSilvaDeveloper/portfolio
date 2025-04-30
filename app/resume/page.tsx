@@ -21,7 +21,7 @@ export default function ResumePage() {
       </div>
 
       <div className="max-w-4xl mx-auto bg-card p-8 rounded-lg shadow-sm border">
-        <h1 className="text-3xl font-bold mb-2">John Doe</h1>
+        <h1 className="text-3xl font-bold mb-2">Lucas Silva</h1>
         <h2 className="text-xl text-muted-foreground mb-4">Full-Stack Developer</h2>
 
         <div className="flex flex-col md:flex-row gap-4 mb-6">
