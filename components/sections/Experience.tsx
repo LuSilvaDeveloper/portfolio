@@ -145,7 +145,7 @@ export function Experience() {
                                 <p className="mb-4">
                                     Contributed to the project for over a year
                                     to develop a platform that showcases Web Dev
-                                    Path's services and helps attract
+                                    Path&apos;s services and helps attract
                                     initiatives and organizations in need of
                                     support.
                                 </p>
