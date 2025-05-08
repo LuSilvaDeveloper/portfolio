@@ -48,16 +48,11 @@ export function Experience() {
                         <Card>
                             <CardContent className="pt-6">
                                 <p className="mb-4">
-                                    Providing frontline technical support to
-                                    faculty and staff by troubleshooting
-                                    hardware, software, and network issues.
-                                    Responsible for imaging and deploying
-                                    devices, managing user accounts through
-                                    Active Directory and Azure, and maintaining
-                                    classroom and lab equipment. Collaborating
-                                    with IT team members to implement efficient
-                                    support processes and ensure minimal
-                                    downtime for end users.
+                                    Delivered technical support for hardware,
+                                    software, and network issues; managed device
+                                    deployment, user accounts (AD/Azure), and
+                                    lab equipment to ensure smooth IT
+                                    operations.
                                 </p>
                                 <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
                                     <li>
