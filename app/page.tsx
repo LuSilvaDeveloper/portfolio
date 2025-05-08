@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Navigation } from "@/components/Navigation";
 import { Home } from "@/components/sections/Home";
 import { About } from "@/components/sections/About";
+import { Experience } from "@/components/sections/Experience";
 import { Projects } from "@/components/sections/Projects";
 import { Contact } from "@/components/sections/Contact";
 import { Footer } from "@/components/Footer";
@@ -15,7 +16,7 @@ export default function Portfolio() {
   // Update active section based on scroll position
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "projects", "contact"];
+      const sections = ["home", "about", "experience", "projects", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -55,6 +56,7 @@ export default function Portfolio() {
       <main className="container mx-auto px-4 pt-24">
         <Home scrollToSection={scrollToSection} />
         <About />
+        <Experience />
         <Projects projects={projects} />
         <Contact />
       </main>

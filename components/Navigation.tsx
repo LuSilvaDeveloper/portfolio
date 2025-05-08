@@ -30,13 +30,13 @@ export function Navigation({ activeSection, scrollToSection }: NavigationProps) 
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-xl font-bold">Lucas Silva</div>
         <nav className="hidden md:flex space-x-6">
-          {["home", "about", "projects", "contact"].map((section) => (
+          {["home", "about", "experience", "projects", "contact"].map((section) => (
             <button
               key={section}
               onClick={() => scrollToSection(section)}
               className={`capitalize ${
                 activeSection === section
-                  ? "text-primary font-medium"
+                  ? "text-purple-900 dark:text-purple-400 font-medium"
                   : "text-muted-foreground hover:text-foreground"
               }`}
             >
